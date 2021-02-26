@@ -1,0 +1,10 @@
+.Post {
+  padding: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+
+  &__locale {
+    text-transform: uppercase;
+    font-size: 0.875rem;
+  }
+}

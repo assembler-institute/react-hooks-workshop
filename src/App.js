@@ -1,7 +1,9 @@
 import React from "react";
 
+import Counter from "./components/workshop/Counter.js";
+
 function App() {
-  return <h1>hello mundo</h1>;
+  return <Counter />;
 }
 
 export default App;
