@@ -8,7 +8,6 @@ In this workshop you will learn all about React Hooks.
 
 - [Getting Started](#getting-started)
 - [Dependencies](#dependencies)
-- [Contents and Branches Naming Strategy](#contents-and-branches-naming-strategy)
 - [React Hooks](#react-hooks)
 - [Before We Get Started](#before-we-get-started)
 - [`useState()`](#usestate)
@@ -55,32 +54,6 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-## Contents and Branches Naming Strategy
-
-The repository is made up of several branches that include the contents and exercises of each section.
-
-The branches follow a naming strategy like the following:
-
-- `{NN}-exercise`: includes the main contents and the instructions of the exercises
-- `{NN}-exercise-solution`: includes the solution of the exercises
-
-### Fetching All the Branches
-
-In order to fetch all the remote branches in the repository you can use the following command:
-
-```bash
-$ git fetch --all
-
-# List both remote-tracking branches and local branches
-$ git branch --all
-```
-
-Then, you can create a local branch based on a remote branch with the following command:
-
-```bash
-$ git checkout -b <new_branch_name> <remote_branch_name>
-```
 
 ## React Hooks
 
