@@ -389,8 +389,6 @@ Instead of executing the hook with every DOM update, you can pass in the depende
 
 ### Converting `componentDidMount()` to Hooks
 
-The equivalent of using `componentDidMount()` in hooks is the `useEffect` hook.
-
 Here we can see an example written with classes:
 
 ```jsx
@@ -443,8 +441,6 @@ export default ComponentDidMountToHooks;
 ```
 
 ### Converting `componentDidUpdate()` to Hooks
-
-The equivalent of using `componentDidUpdate()` in hooks is also the `useEffect` hook.
 
 Here we can see an example written with classes:
 
@@ -564,7 +560,7 @@ function Counter(props) {
 
 ### Converting `componentWillUnmount()` to Hooks
 
-The equivalent of using `componentWillUnmount()` in hooks is also the `useEffect` hook. However, in this case the callback should return a function that **is called when the component is unmounted**.
+We can also use `useEffect` hook. However, in this case the callback should return a function that **is called when the component is unmounted**.
 
 Here we can see an example written with classes:
 
